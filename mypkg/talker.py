@@ -1,16 +1,24 @@
 import rclpy
 from rclpy.node import Node
-from person_msgs.srv import Query #使う型を変更
+from std_msgs.msg import Int16
 
-def cb(request, response):
-    if request.name == "伊藤秀真":
-        response.age = 20
-    else:
-        response.age = 255
+class Talker():          #ヘッダの下にTalkerというクラスを作成
+    def __init__(self, node):  
+        self.pub = node.create_publisher(Int16, "countup", 10)
+        self.n = 0
+        node.create_timer(0.5, self.cd)
+        
+    def cb(self):      #インデントをあげてselfを引数に
+        msg = Int16()
+        msg.data = self.n     #talker -> self
+        self.pub.publish(msg) #talker -> self
+        self.n += 1           #talker -> self
 
-    return response
+def main():
+    rclpy.init()
+    node = Node("talker")
+    talker = Talker(node)
+    rclpy.spin(node)
 
-rclpy.init()
-node = Node("talker")
-srv = node.create_service(Query, "query", cb) #サービスの作成
-rclpy.spin(node)
+if __name__ == '__main__':
+    main()
