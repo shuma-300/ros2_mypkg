@@ -4,7 +4,7 @@
 * ロボットシステム学の練習用のリポジトリとして作成
 
 ## インストール方法
-* https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/11を参照し
+* https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/11 を参照し
 ```
 $ git clone https://github.com/ryuichiueda/ros2_setup_scripts
 $ cd ros2_setup_scripts
