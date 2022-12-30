@@ -1,5 +1,5 @@
 LICENSE
-README
+README.md
 package.xml
 setup.cfg
 setup.py
