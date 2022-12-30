@@ -11,9 +11,8 @@ $ cd ros2_setup_scripts
 ```
 を実行
 
-## talkerコマンド
-## listenerコマンド
-![test](https://github.com/shuma-300/robosys202x/actions/workflows/test.yml/badge.svg)
+## talkerコマンドとlistenerコマンド
+![test](https://github.com/shuma-300/ros2_ws/src/mypkg/actions/workflows/test.yml/badge.svg)
 * talker.pyからInt16型のメッセージを送信
 * listener.pyからInt16型のメッセージを受信し表示
 
