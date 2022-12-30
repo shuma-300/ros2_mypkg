@@ -1,3 +1,4 @@
+LICENSE
 README
 package.xml
 setup.cfg
