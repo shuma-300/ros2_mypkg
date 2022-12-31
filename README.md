@@ -1,4 +1,5 @@
 # ros2_ws/src/mypkg
+[![test7](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml)
 ## 概要
 * このmypkgというリポジトリはros2のパッケージでtalker、listenerコマンド（ノードが互いに通信するコマンド）が含まれる
 * ロボットシステム学の練習用のリポジトリとして作成
@@ -11,7 +12,6 @@ $ git clone https://github.com/shuma-300/ros2_mypkg.git
 を実行
 
 ## talkerコマンドとlistenerコマンド
-[![test7](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml)
 * talker.pyからInt16型のメッセージを送信
 * listener.pyからInt16型のメッセージを受信し表示
 
