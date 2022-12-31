@@ -2,17 +2,16 @@
 ## 概要
 * このmypkgというリポジトリはros2のパッケージでtalker、listenerコマンド（ノードが互いに通信するコマンド）が含まれる
 * ロボットシステム学の練習用のリポジトリとして作成
-
-## インストール方法
 * https://ryuichiueda.github.io/my_slides/robosys_2022/lesson8.html#/11 を参照し
+* ros2のインストールがされてない方は先にインストールをお願いします
+インストールが終わった方はリポジトリをワークスペースにクローンしてください
 ```
-$ git clone https://github.com/ryuichiueda/ros2_setup_scripts
-$ cd ros2_setup_scripts
+$ git clone https://github.com/shuma-300/ros2_mypkg.git
 ```
 を実行
 
 ## talkerコマンドとlistenerコマンド
-![test](https://github.com/shuma-300/robosys202x/actions/workflows/test.yml/badge.svg)
+[![test7](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml)
 * talker.pyからInt16型のメッセージを送信
 * listener.pyからInt16型のメッセージを受信し表示
 
@@ -32,8 +31,7 @@ data: 18
 ```
 
 ## 必要なソフトウェア
-* python 3.7 ~ 3.10
-  * テスト済み
+* ros2 humble
 
 ## 動作確認済み環境
 * Ubuntu 22.04.1LTS
