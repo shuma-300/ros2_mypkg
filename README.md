@@ -9,7 +9,7 @@
 ```
 $ git clone https://github.com/shuma-300/ros2_mypkg.git
 ```
-を実行
+ を実行
 
 ## talkerコマンドとlistenerコマンド
 * talker.pyからInt16型のメッセージを送信
