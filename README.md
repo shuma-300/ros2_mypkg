@@ -22,6 +22,9 @@ $ ros2 run mypkg talker
 ここで別端末でros2を使ってサブスクライブをする
 ```
 $ ros2 topic echo /countup
+```
+
+```
 data: 16
 ---
 data: 17
