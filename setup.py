@@ -1,7 +1,3 @@
-#!/usr/bin/python3
-# SPDX-FileCopyrightText: 2022 Ryuichi Ueda 　　　　　
-# SPDX-License-Identifier: BSD-3-Clause
-
 from setuptools import setup
 import os 
 from glob import glob
