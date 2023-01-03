@@ -1,4 +1,4 @@
-# ros2_ws/src/mypkg
+# mypkg
 [![test7](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/shuma-300/ros2_mypkg/actions/workflows/test.yml)
 ## 概要
 * このmypkgというリポジトリはros2のパッケージでtalker、listener（ノードが互いに通信するコマンド）が含まれる
