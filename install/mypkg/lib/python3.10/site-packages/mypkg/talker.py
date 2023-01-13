@@ -1,28 +1,26 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Shuma Ito
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-Licencse-Identifier: BSD-3-Clause
+
 
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16
 
-class Talker():          #ヘッダの下にTalkerというクラスを作成
-    def __init__(self, node):  
+class Talker():
+    def __init__(self, node):
         self.pub = node.create_publisher(Int16, "countup", 10)
         self.n = 0
-        node.create_timer(0.5, self.cd)
-        
-    def cb(self):      #インデントをあげてselfを引数に
+        node.create_timer(0.5, self.cb)
+
+    def cb(self):
         msg = Int16()
-        msg.data = self.n     #talker -> self
-        self.pub.publish(msg) #talker -> self
-        self.n += 1           #talker -> self
+        msg.data = self.n
+        self.pub.publish(msg)
+        self.n += 1
 
-def main():
-    rclpy.init()
-    node = Node("talker")
-    talker = Talker(node)
-    rclpy.spin(node)
+rclpy.init()
+node = Node("talker")
+talker = Talker(node)
+rclpy.spin(node)
 
-if __name__ == '__main__':
-    main()

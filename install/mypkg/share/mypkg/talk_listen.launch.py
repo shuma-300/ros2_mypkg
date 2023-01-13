@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Shuma Ito
-# SPDX-License-Identifier: BSD-3-Clause
+# SPDX-Licencse-Identifier: BSD-3-Clause
 
 import launch
 import launch.actions
@@ -21,4 +21,3 @@ def generate_launch_description():
         )
 
     return launch.LaunchDescription([talker, listener])
-

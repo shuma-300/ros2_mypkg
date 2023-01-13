@@ -1,0 +1,33 @@
+[0.522s] Invoking command in '/home/shuma/ros2_ws/src/mypkg': PYTHONPATH=/home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shuma/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/shuma/ros2_ws/src/mypkg/install/mypkg --record /home/shuma/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.693s] running egg_info
+[0.693s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.694s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.694s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.694s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.694s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.696s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.696s] adding license file 'LICENSE'
+[0.697s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.697s] running build
+[0.697s] running build_py
+[0.697s] copying mypkg/talker.py -> /home/shuma/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.697s] copying mypkg/listener.py -> /home/shuma/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[0.697s] running install
+[0.698s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.698s]   warnings.warn(
+[0.698s] running install_lib
+[0.699s] copying /home/shuma/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.699s] copying /home/shuma/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.700s] byte-compiling /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/talker.py to talker.cpython-310.pyc
+[0.701s] byte-compiling /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.701s] running install_data
+[0.701s] copying package.xml -> /home/shuma/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.702s] copying launch/talk_listen.launch.py -> /home/shuma/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[0.702s] running install_egg_info
+[0.704s] removing '/home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.704s] Copying build/mypkg/mypkg.egg-info to /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.705s] running install_scripts
+[0.724s] Installing listener script to /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.724s] Installing talker script to /home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.725s] writing list of installed files to '/home/shuma/ros2_ws/src/mypkg/build/mypkg/install.log'
+[0.747s] Invoked command in '/home/shuma/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/shuma/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shuma/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/shuma/ros2_ws/src/mypkg/install/mypkg --record /home/shuma/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
